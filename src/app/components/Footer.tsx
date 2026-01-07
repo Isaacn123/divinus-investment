@@ -19,7 +19,7 @@ export function Footer() {
                                 />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold text-white text-sm leading-tight">DIVINU</span>
+                <span className="font-bold text-white text-sm leading-tight">DIVINUS</span>
                 <span className="text-xs text-gray-400 leading-tight">INVESTMENT GROUP</span>
               </div>
             </div>
