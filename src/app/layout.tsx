@@ -1,7 +1,8 @@
 import "../styles/index.css";
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://divinusinvestment.com"),
   title: "DIVINUS Investment Group - Building Generational Wealth for African Families",
   description: "Building Generational Wealth for African Families Through Smart Digital Investments. FinTech Solutions, AI-Powered Insights, Capital Markets, and Financial Literacy.",
   keywords: ["investment", "wealth management", "FinTech", "Africa", "digital investment", "financial literacy", "capital markets"],
@@ -37,10 +38,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
   themeColor: "#2563eb",
 };
 

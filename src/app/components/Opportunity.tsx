@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'motion/react';
 import { Sparkles, Users, Smartphone, TrendingUp, BarChart3, Zap } from 'lucide-react';
 

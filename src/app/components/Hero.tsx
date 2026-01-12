@@ -3,7 +3,6 @@
 import { Button } from './ui/button';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
-import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -76,7 +75,6 @@ export function Hero() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 // src="/Digital_Investment.png"
-                // src="https://plus.unsplash.com/premium_photo-1663045775483-488b915b5789?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8"
                 src="https://media.istockphoto.com/id/1344872631/photo/portrait-of-a-group-of-confident-young-businesspeople-working-together-in-a-modern-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=B7e0-L-qeU4J-xsPFkGWVBN5lkdTrqHZV5hStHrmaIY="
                 alt="African business growth"
                 className="w-full h-auto"
