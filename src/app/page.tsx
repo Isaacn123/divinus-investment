@@ -7,6 +7,8 @@ import { Features } from './components/Features';
 import { Impact } from './components/Impact';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
+import { CompetitiveAdvantage } from './components/CompetitiveAdvantage';
+import { MarketSize } from './components/MarketSize';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Challenges />
       <Opportunity />
       <Services />
+      <CompetitiveAdvantage/>
+      <MarketSize/>
       <Features />
       <Impact />
       <CTA />
