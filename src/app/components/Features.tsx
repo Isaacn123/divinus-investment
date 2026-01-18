@@ -108,7 +108,7 @@ export function Features() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 // src="https://images.unsplash.com/photo-1761850167081-473019536383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwaW52ZXN0bWVudCUyMGRpZ2l0YWx8ZW58MXx8fHwxNzY3ODEyNzMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                src="https://images.unsplash.com/photo-1655720357872-ce227e4164ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1761850167081-473019536383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwaW52ZXN0bWVudCUyMGRpZ2l0YWx8ZW58MXx8fHwxNzY3ODEyNzMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Digital investment platform"
                 className="w-full h-auto"
               />
