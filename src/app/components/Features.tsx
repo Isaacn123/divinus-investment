@@ -1,38 +1,38 @@
-'use client';
+"use client";
 
-import { motion } from 'motion/react';
-import { CheckCircle2 } from 'lucide-react';
+import { motion } from "motion/react";
+import { CheckCircle2 } from "lucide-react";
 
 const stats = [
   {
-    value: '23%',
-    label: 'Average Annual Returns',
-    description: 'Outperforming traditional investment methods',
+    value: "23%",
+    label: "Average Annual Returns",
+    description: "Outperforming traditional investment methods",
   },
   {
-    value: '98%',
-    label: 'Client Satisfaction',
-    description: 'Building trust through transparency',
+    value: "98%",
+    label: "Client Satisfaction",
+    description: "Building trust through transparency",
   },
   {
-    value: '24/7',
-    label: 'Platform Access',
-    description: 'Invest anytime, anywhere',
+    value: "24/7",
+    label: "Platform Access",
+    description: "Invest anytime, anywhere",
   },
   {
-    value: '100+',
-    label: 'Investment Options',
-    description: 'Diversified portfolio opportunities',
+    value: "100+",
+    label: "Investment Options",
+    description: "Diversified portfolio opportunities",
   },
 ];
 
 const benefits = [
-  'Low minimum investment thresholds',
-  'Secure and regulated platform',
-  'Expert portfolio management',
-  'Real-time performance tracking',
-  'Educational resources and support',
-  'Multi-currency support',
+  "Low minimum investment thresholds",
+  "Secure and regulated platform",
+  "Expert portfolio management",
+  "Real-time performance tracking",
+  "Educational resources and support",
+  "Multi-currency support",
 ];
 
 export function Features() {
@@ -56,7 +56,9 @@ export function Features() {
               viewport={{ once: true }}
               className="text-center p-6 bg-white rounded-2xl shadow-sm"
             >
-              <div className="text-4xl font-bold text-blue-600 mb-2">{stat.value}</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">
+                {stat.value}
+              </div>
               <div className="font-bold text-gray-900 mb-1">{stat.label}</div>
               <div className="text-sm text-gray-600">{stat.description}</div>
             </motion.div>
@@ -75,9 +77,10 @@ export function Features() {
               Why Choose DIG?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              We combine technology, expertise, and local market knowledge to deliver superior investment outcomes for African families.
+              We combine technology, expertise, and local market knowledge to
+              deliver superior investment outcomes for African families.
             </p>
-            
+
             <div className="grid sm:grid-cols-2 gap-4">
               {benefits.map((benefit, index) => (
                 <motion.div
@@ -103,8 +106,9 @@ export function Features() {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1761850167081-473019536383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwaW52ZXN0bWVudCUyMGRpZ2l0YWx8ZW58MXx8fHwxNzY3ODEyNzMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              <img
+                // src="https://images.unsplash.com/photo-1761850167081-473019536383?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW50ZWNoJTIwaW52ZXN0bWVudCUyMGRpZ2l0YWx8ZW58MXx8fHwxNzY3ODEyNzMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1655720357872-ce227e4164ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Digital investment platform"
                 className="w-full h-auto"
               />
